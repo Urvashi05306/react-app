@@ -1,0 +1,112 @@
+.page-container {
+    background-color: #F7F8F9;
+    margin: 0;
+    font-family: Rubik, sans-serif;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #F7F8F9;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .input-wrapper label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6b46c1;
+    position: absolute;
+    top: -7px;
+    left: 12px;
+    background: #F7F8F9;
+    padding: 0 5px;
+    z-index: 1;
+  }
+  
+  .input-wrapper label span {
+    color: red;
+  }
+  
+  .input-wrapper-btn label span {
+    color: red;
+  }
+  
+  .custom-input {
+    padding: 10px;
+    border: 1px solid #CBCBCB;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #F7F8F9;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #553c9a;
+  }
+  
+  .radio-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+    align-items: center;
+  }
+  
+  .radio-options label {
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .primary-button {
+    background-color: #6b46c1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 170px;
+    width: 100%;
+  }
+  
+  .primary-button:hover {
+    background-color: #553c9a;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      max-width: 100%;
+      padding: 15px;
+    }
+  }
+  
