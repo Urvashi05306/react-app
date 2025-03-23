@@ -17,6 +17,6 @@ A modern, responsive, and secure user registration system built with **React** a
 - **Deployment:** Netlify  
 
 ## 📌 Form Validation  
-✔️ **Email Validation:** Custom regex (Only Gmail accounts allowed)  
+✔️ **Email Validation:** Allowed proper mail format  
 ✔️ **Password Security:** Must contain uppercase, lowercase, number & special character  
 ✔️ **Phone Number Check:** Only 10-digit numbers allowed  
